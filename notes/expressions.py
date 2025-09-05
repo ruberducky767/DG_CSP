@@ -20,13 +20,25 @@ avrege = age+age2+age3+age4/amount
 print(avrege)
 
 #math
-num_one = 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-num_two = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+num_one = int(input("give me a number:\n"))
+num_two = int(input("give me a number:\n"))
+num_one = num_two + num_one
+num_one += num_two
+print("addition (+):", round (num_one, 0))# what needs rounded 2 how many decimals
+num_one -= num_two
+print("subtractaction(-)", num_one-num_two)
+num_one *= num_two
+print("multi(*)",num_one*num_two)
+num_one /= num_two
+print("divi(/)",round(11/3, 2))
+num_one **= num_two
+print("expo(**)",num_one**num_two)
+num_one //= num_two
+print("ineger(//)",num_one//num_two)
+num_one %= num_two
+print("remander(%)",num_one%num_two)
+num_one -= num_two
 
-print("addition:", num_one + num_two)
-print("subtractaction", num_one-num_two)
-print("multi",num_one*num_two)
-print("divi",num_one/num_two)
-print("expo",num_one**num_two)
-print("ineger",num_one//num_two)
-print("remander",num_one%num_two)
+# a integer is a data type that can hold positive and negitive or positive but it has to be a whole number
+# a float is a decimal number
+print("(3*5**2/15)-(5-2**2)=",(3*5**2/15)-(5-2**2))
