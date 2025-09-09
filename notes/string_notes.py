@@ -6,6 +6,7 @@
 #How do stupid proofing and sanitization relate to each other?
 
 #What is debugging?
+#is fixing problems in my code
 #How do you debug the different types of errors?
 #Describe what each of the methods below does:
 #find()
