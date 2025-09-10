@@ -4,4 +4,3 @@ print ("please make the decor of the last part of your name the same as or flipp
 last_decor = input("how would you like to decorate the last part of youre name")
 name_decord = first_decor+""+name+""+last_decor
 print(name_decord)
-#hiii
