@@ -1,0 +1,5 @@
+animal = input("type the first animal that comes to your head\n")
+verb = input("type the first verb that comes to your mind\n")
+big_object = input("think of a big object\n")
+small_object = input('think of a small object\n')
+print ('you are walking your '+animal+" when your "+animal+" "+verb+ " up a "+big_object+" and triped over a small "+small_object+" and fell and hurt it's knee.")
