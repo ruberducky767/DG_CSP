@@ -5,6 +5,9 @@ rent = (input("what is your rent?"))
 utilities = (input("what is the cost of your utilitys?"))
 groceries = (input("what is the monthly cost of your groceries?"))
 transport = (input("what is the monthly cost of your transport?"))
+def percent(per):
+    per=rent/income*100
+    per=utilities/income*100
 print ("youre rent is " + rent+" thats " + str((int(rent)/int(income))*100) + "% of youre income")
 print ("youre utilities are " + utilities+" thats " + str((int(utilities)/int(income))*100) + "% of youre income")
 print ("youre groceries are " + groceries+" thats " + str((int(groceries)/int(income))*100) + "% of youre income")

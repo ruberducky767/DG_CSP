@@ -1,11 +1,7 @@
-name = "dominik";
 
-print ("hello " + name + "!");
-
-name = "Bob"
-
-print ("hello " + name + "!");
-
-name = "steve"
-
-print ("hello " + name + "!");
+def hello(name):
+    print("hello",name)
+ 
+hello("dominik")
+hello("xander")
+hello("tim")

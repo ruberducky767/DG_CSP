@@ -2,9 +2,9 @@
 
 #What a function is
 # a indentation in code is called a whitespace
-#if you add a space on a indent then the code breaks
+#if you add a space on a indent then the code bre
 
-int random(1)
+import random
 
 def welcome():
     name = input("welcome what is youre name\n")
@@ -31,22 +31,7 @@ add(num_2)
 (15, 10)
 
 
-def believe(sentence):
-    length = len(sentence)
-    spot_one = random.randint(0,length -1)
-    spot_two = random.randint(0,length -1)
-    spot_three = random.randint(0,length -1)
-    spot_four = random.randint(0,length -1)
-    full_sentence = sentence.split(" ")
-    full_sentence.insert(spot_one, "Beleive it!")
-    full_sentence.insert(spot_two, "Beleive it!")
-    full_sentence.insert(spot_three, "Beleive it!")
-    full_sentence.insert(spot_four, "Beleive it!")
-    sentence = full_sentence-join("")
-    return sentence
 
-
-new_sentence = believe("the cow jumped over the moon and never came back")
 
     
 
