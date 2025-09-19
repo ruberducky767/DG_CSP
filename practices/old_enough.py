@@ -5,7 +5,7 @@ age = int(input("how old are you\n"))
 if age >= 100:
     print(f"wow {name} you are old enough to be in the museum")
 elif age >= 18:
-    print("you can vote. be carfull its a big world out there")
+    print("you can vote. be carefull its a big world out there")
 elif age >= 16:
     print("you can drive by your self. be freeee")
 elif age >= 15:
