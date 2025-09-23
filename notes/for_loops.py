@@ -20,8 +20,8 @@ print(siblings)
 
 #for loop
 for sibling in siblings:
-    #print(f"hello {sibling}")
-    print("hi")
+    print(f"hello {sibling}")
+    #print("hi")
 
 for x in range(1,1000,10):
     print(x)
@@ -34,12 +34,12 @@ for x in range(1,1000,10):
 
 
 #good boy
-i = 2
+i = 1
 
 
 while i < 21:
     if i % 2 == 0:
-        print(f"{i}is even")
+        print(f"{i} is even")
     else:
         print(f"{i} is odd")
     i +=1
@@ -61,3 +61,5 @@ while True:
     else:
         print("duck")
         x += 1
+
+#an iteration is one instens of a loop
