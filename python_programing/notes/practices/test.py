@@ -17,9 +17,13 @@ if yesno == "yes":
                    print("you unlock it and you go down a hall and see a gigantic spider behind it you see the golden egg")
                    ask=print('do you ask or fight')
                    if ask=='ask':
-                         print("she picks you up and you die")
+                         print("the spider picks you up and eats you")
                          if ask =='fight':
-                               print()
+                               inventoryask =print("do you want to use a wepeon in your inventory")
+                               if inventoryask == 'yes':
+                                     
+
+
 
         if stab == 'slash':
               print('you made the spider mad')
