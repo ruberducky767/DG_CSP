@@ -15,9 +15,14 @@ int main(void){
     scanf("%f", &utilities);
     printf("your utilities is %.2f\n", utilities);
     float grocerys;
-    printf("what is your grocerys");
+    printf("what is your grocerys: ");
     scanf("%f", &grocerys);
     printf("your grocerys is %.2f", grocerys);
+    float transport;
+    printf("what is your transport cost: ");
+    scanf("%f", &transport);
+    printf("your transport is %.2f", transport)
+
 
 return 0;
 }
