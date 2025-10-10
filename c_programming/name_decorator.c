@@ -7,6 +7,7 @@ int main(void){
     scanf("%s", name);
     char decor[100];
     printf("type random letters numbers in a pattern: ");
-    scanf("%s", name);
+    scanf("%s", decor);
+    printf("%s",name, "%s");
     return 0;
 }
