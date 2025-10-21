@@ -1,4 +1,12 @@
 //DG 6th functions notes
+// a function is a bloock of code that can be used for repeting a singel step so it can be used over and over instead of typing it over and over
+//we use functions to code a set of instructions multipule times so we dont have to type it multipule times
+// arguments and puramiters are like calling a function
+// a  peramiter tells the code to expect a argument and an argument is what the funtion does and both together make a function
+// peramiter allways starts the function and the argument is the main of the function
+// a return function ends the function
+// the return statment makes a function more of a set of rules
+//the return function ends the function, it raps it up
 #include <stdio.h>
 
 void birthday(char* name, int age){
